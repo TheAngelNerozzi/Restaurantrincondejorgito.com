@@ -14,7 +14,7 @@ import { CalendarIcon, Loader2 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 // Import EmailJS SDK
-import emailjs from '@emailjs/browser';
+import emailjs from './../../node_modules/@emailjs/browser/es';
 
 // Initialize EmailJS with public key
 emailjs.init(import.meta.env.VITE_EMAILJS_PUBLIC_KEY || '_JxTD0IIJZWKI6-QX');
