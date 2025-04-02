@@ -20,7 +20,7 @@ export default defineConfig(({ mode }) => ({
   },
   build: {
     rollupOptions: {
-      external: ["@formspree/react", "@emailjs/browser"],
+      external: ["@formspree/react"],
     },
   },
 }));
