@@ -1,0 +1,39 @@
+# Configuración de EmailJS para el Formulario de Reservas
+
+## Pasos para configurar EmailJS
+
+1. Regístrate en [EmailJS](https://www.emailjs.com/) si aún no tienes una cuenta.
+
+2. Crea un nuevo servicio de correo electrónico en tu cuenta de EmailJS.
+   - Ve a "Email Services" y haz clic en "Add New Service".
+   - Selecciona tu proveedor de correo electrónico (Gmail, Outlook, etc.).
+   - Configura el servicio con tus credenciales de correo electrónico.
+   - Anota el ID del servicio (service_id) que se te asigna.
+
+3. Crea una plantilla de correo electrónico.
+   - Ve a "Email Templates" y haz clic en "Create New Template".
+   - Diseña tu plantilla de correo electrónico para las reservas.
+   - Asegúrate de incluir variables como {{from_name}}, {{from_email}}, {{date}}, etc.
+   - Anota el ID de la plantilla (template_id) que se te asigna.
+
+4. Obtén tu clave pública de EmailJS.
+   - Ve a "Account" > "API Keys".
+   - Copia tu clave pública (Public Key).
+
+5. Actualiza el archivo `.env` con tus credenciales:
+   ```
+   VITE_EMAILJS_SERVICE_ID=tu_service_id
+   VITE_EMAILJS_TEMPLATE_ID=tu_template_id
+   VITE_EMAILJS_PUBLIC_KEY=tu_public_key
+   ```
+
+6. Reinicia el servidor de desarrollo para que los cambios surtan efecto.
+
+## Solución de problemas
+
+Si sigues experimentando problemas con el envío de correos electrónicos:
+
+1. Verifica que las credenciales en el archivo `.env` sean correctas.
+2. Asegúrate de que la plantilla de EmailJS contenga todas las variables que estás enviando desde el formulario.
+3. Revisa la consola del navegador para ver mensajes de error específicos.
+4. Verifica que tu cuenta de EmailJS tenga suficientes créditos disponibles para enviar correos electrónicos.
