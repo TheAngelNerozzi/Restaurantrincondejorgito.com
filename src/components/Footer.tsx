@@ -85,7 +85,7 @@ export default function Footer() {
 
           {/* Center: Attribution */}
           <p className="text-sm text-muted-foreground mb-4 sm:mb-0">
-            ❤️ Designed and developed by Angel Nerozzi ❤️
+            ❤️ Designed and developed by B.S. in CS - Angel Nerozzi ❤️
           </p>
 
 
