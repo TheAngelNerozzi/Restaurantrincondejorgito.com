@@ -81,7 +81,7 @@ export default function Index() {
             </div>
             <div className="relative lg:order-2">
               <div className="rounded-lg overflow-hidden shadow-lg">
-                <img alt="Restaurant interior" src="images/elrincondejorgitoinside.png" className="w-full h-auto object-none" />
+                <img alt="Restaurant interior" src="public/elrincondejorgitoinside.png" className="w-full h-auto object-cover" />
               </div>
               <div className="absolute -bottom-6 -left-6 w-48 h-48 bg-primary/10 rounded-full -z-10"></div>
               <div className="absolute -top-6 -right-6 w-32 h-32 bg-secondary/10 rounded-full -z-10"></div>
