@@ -32,7 +32,7 @@ export default function Hero() {
       ref={heroRef}
       className="relative min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat overflow-hidden"
       style={{ 
-        backgroundImage: "/public/fondo.jpg')",
+        backgroundImage: "url('/fondo.jpg')",
       }}
     >
       {/* Overlay */}
