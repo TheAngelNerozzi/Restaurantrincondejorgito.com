@@ -65,7 +65,7 @@ export default function Footer() {
               <div className="space-y-1">
                 <p className="font-medium text-foreground">{translations.contact.hours}</p>
                 {/* Updated opening hours */}
-                <p>Sun 12:00 pm - 7:00 pm</p>
+                <p>Sun 12:00 pm - 8:00 pm</p>
                 <p>Tue 11:00 am - 8:00 pm</p>
                 <p>Wed 11:00 am - 8:00 pm</p>
                 <p>Thu 11:00 am - 10:00 pm</p>
